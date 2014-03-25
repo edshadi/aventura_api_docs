@@ -15,9 +15,4 @@
     * API Secret Token
     * resort Authorization Key
 * [Resources](resources.md)
-    * [resorts](resources/resorts.md)
-        * [Targets on resorts](resources/resorts/targets.md)
-        * [Signatures on resorts](resources/resorts/signatures.md)
-        * [Reasons on resorts](resources/resorts/reasons.md)
-        * [Updates on resorts](resources/resorts/updates.md)
-        * [Authorization Keys on resorts](resources/resorts/auth_keys.md)
+    * TODO
