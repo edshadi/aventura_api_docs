@@ -141,7 +141,7 @@ The secret token and timestamp are then added, in alphabetical order, as additio
 
 And the final request signature would be the SHA-2 digest of the string above:
 
-    1d12d0b923ecdbb4d5b1df8c7f2f1b3c2270bc6e538bbf5d32611d3429c1b310
+    681f9129c435e2af7c434c76e28db3921e1518956656d926f6124cc93a47c213
 
 The signature is then appended as a parameter, `rsig`, to the clear-text query string. So the full request and return value would be
 
