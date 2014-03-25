@@ -13,6 +13,5 @@
 * [Authentication](authentication.md)
     * API Key
     * API Secret Token
-    * resort Authorization Key
 * [Resources](resources.md)
     * TODO
