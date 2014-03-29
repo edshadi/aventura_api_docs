@@ -153,3 +153,56 @@ The signature is then appended as a parameter, `rsig`, to the clear-text query s
             "description": "great resort in the heart of Rio",
             ...
         }
+
+Full list of requests:
+
+Endpoints
+
+Products
+    GET http://api.aventuradobrasil.com/v1/products/   - ALL products
+    GET http://api.aventuradobrasil.com/v1/products/1 - Specific product
+
+Baskets
+     GET http://api.aventuradobrasil.com/v1/baskets/ - Baskets of the client
+    GET http://api.aventuradobrasil.com/v1/baskets/id - Specific basket
+    POST http://api.aventuradobrasil.com/v1/baskets/id - Add “pending” basket 
+
+API Endpoint actions
+
+Products
+    GET http://api.aventuradobrasil.com/v1/products/   - ALL products
+returns
+{ 
+ “id": "34" 
+ “description: "Guide for Manaus Rio Adventure"   
+ “regions_id: "22"   
+ “category_id: "3"  
+ “amount: "22,89"  (calculated price times exchange rate times margin)
+ “pax: "2"  (pax = amount of people)
+ “from_date: "1388534400"  (UNIX timestamp)
+ “to_date: "1388793600"  (UNIX timestamp)
+ “extrainfo: "addittional infos from booking as text/string"  
+ “price_id: "166"   
+ “changed_date: "1389830400"  (UNIX timestamp)
+}  
+
+Basket 
+
+     GET http://api.aventuradobrasil.com/v1/baskets/
+
+ {
+     “Name”: "Greenville Brasil Tours"
+     “email”: "frank@green-brasil.com"
+     “product_id”: "155"
+     “from_date: "1388534400"  (UNIX timestamp)
+     “to_date: "1388793600"  (UNIX timestamp) 
+     “accomodation”: "0" 
+     “package”: "0" 
+     “nights”: "2" 
+     “Customer_ID”: "3" 
+     “Pax” : "2"
+}
+
+
+
+
