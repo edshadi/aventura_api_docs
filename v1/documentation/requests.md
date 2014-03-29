@@ -175,8 +175,8 @@ returns
 { 
  “id": "34" 
  “description: "Guide for Manaus Rio Adventure"   
- “regions_id: "22"   
- “category_id: "3"  
+ “regions: "amazonia"   
+ “category: "Days trip"  
  “amount: "22,89"  (calculated price times exchange rate times margin)
  “pax: "2"  (pax = amount of people)
  “from_date: "1388534400"  (UNIX timestamp)
