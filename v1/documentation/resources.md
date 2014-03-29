@@ -1,2 +1,5 @@
 # Resources
-TODO
+
+Products
+Baskets
+
